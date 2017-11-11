@@ -1,0 +1,2 @@
+python-nest
+paho_mqtt
