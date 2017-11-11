@@ -68,7 +68,7 @@ def main():
             if therm.structure._serial != args.location:
                 continue
 
-            if therm.temperature_scale == 'f':
+            if therm.temperature_scale == 'F':
                 temp = nest.utils.f_to_c(therm.temperature)
                 target = nest.utils.f_to_c(therm.target)
             else:
