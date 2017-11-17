@@ -82,6 +82,7 @@ def main():
                 args.topic, therm.device_id)
             sample = {
                 'sensor_id': therm.device_id,
+                'sensor_type': 'nest',
                 'location': therm.name.lower(),
                 'temperature': temp,
                 'temperature_target': target,
